@@ -1,0 +1,50 @@
+{
+  "name": "@secretcowlevel/eslint-config-secretcowlevel",
+  "version": "0.0.1",
+  "description": "Standard JS but with some 🎉",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/secretcowlevel/eslint-config-secretcowlevel.git"
+  },
+  "author": "framerate@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint": "8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-config-standard-react": "github:standard/eslint-config-standard-react#f4524992516ede26dc2d4264966acb6bd6744d66",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-jest-formatting": "^3.1.0",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-standard": "^4.1.0",
+    "typescript": "^4.9.5"
+  },
+  "bugs": {
+    "url": "https://github.com/secretcowlevel/eslint-config-secretcowlevel/issues"
+  },
+  "homepage": "https://github.com/secretcowlevel/eslint-config-secretcowlevel#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "standard",
+    "standardjs",
+    "eslint",
+    "moo"
+  ]
+}

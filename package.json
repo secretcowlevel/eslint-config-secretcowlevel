@@ -1,6 +1,6 @@
 {
   "name": "@secretcowlevel/eslint-config-secretcowlevel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Standard JS but with some 🎉",
   "main": "index.js",
   "repository": {

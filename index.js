@@ -55,6 +55,11 @@ module.exports = {
         prev: "*",
         next: "return",
       },
+      {
+        blankLine: "always",
+        prev: "*",
+        next: "export",
+      },
     ],
     "no-console": "error",
   },

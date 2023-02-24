@@ -1,11 +1,12 @@
 {
   "name": "@secretcowlevel/eslint-config-secretcowlevel",
-  "version": "0.0.3-rc2",
+  "version": "0.0.3-rc3",
   "description": "Standard JS but with some 🎉",
   "main": "index.js",
   "files": [
     "index.js",
-    "react.js"
+    "react.js",
+    "rules/"
   ],
   "repository": {
     "type": "git",

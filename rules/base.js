@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
     "standard-with-typescript",
-    // "plugin:jest/recommended",
-    // "plugin:jest/style",
+    "plugin:jest/recommended",
+    "plugin:jest/style",
   ],
   rules: {
     "@typescript-eslint/strict-boolean-expressions": "warn",

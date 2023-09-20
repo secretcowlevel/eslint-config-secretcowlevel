@@ -5,6 +5,7 @@ module.exports = {
     "plugin:jest/style",
   ],
   rules: {
+    "eqeqeq": ["error", "always"],
     "@typescript-eslint/strict-boolean-expressions": "warn",
     "@typescript-eslint/prefer-nullish-coalescing": "warn",
     "lines-between-class-members": 2,

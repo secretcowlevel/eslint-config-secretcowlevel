@@ -4,5 +4,5 @@ module.exports = {
       jsx: true,
     },
   },
-  extends: ["standard-react", "plugin:react-hooks/recommended"],
+  extends: ["standard-jsx", "standard-react", "plugin:react-hooks/recommended"],
 };

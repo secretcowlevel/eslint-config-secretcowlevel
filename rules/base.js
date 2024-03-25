@@ -1,11 +1,12 @@
 module.exports = {
-  extends: [
-    "standard-with-typescript",
-    "plugin:jest/recommended",
-    "plugin:jest/style",
+  extends: ["love", "plugin:jest/recommended", "plugin:jest/style"],
+  overrides: [
+    {
+      files: ["*.js", "*.jsx", "*.ts", "*.tsx"],
+    },
   ],
   rules: {
-    "eqeqeq": ["error", "always"],
+    eqeqeq: ["error", "always"],
     "@typescript-eslint/strict-boolean-expressions": "warn",
     "@typescript-eslint/prefer-nullish-coalescing": "warn",
     "lines-between-class-members": 2,
